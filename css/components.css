@@ -4,11 +4,3 @@
   background-color: #777;
   background-blend-mode: multiply;
 }
-
-.form-button {
-  @apply border-2 py-1 px-4 rounded shadow text-sm font-semibold;
-  @apply border-purple-700 bg-purple-700 text-white;
-}
-.form-button:hover {
-  @apply bg-purple-800 border-purple-800;
-}

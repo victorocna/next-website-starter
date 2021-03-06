@@ -10,8 +10,8 @@ const Page = () => {
             Capture the attention of your audience with this hero image. Less is more
           </p>
           <div className="flex space-x-4 justify-center">
-            <Button>View demo</Button>
-            <Button>Contact us</Button>
+            <Button variant="primary">View demo</Button>
+            <Button variant="accent">Contact us</Button>
           </div>
         </div>
       </Hero>
