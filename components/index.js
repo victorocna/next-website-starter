@@ -1,5 +1,6 @@
 import AppContext from './app-context';
 import AppHead from './AppHead';
+import Button from './Button';
 import Favicon from './Favicon';
 import Footer from './Footer';
 import Header from './Header';
@@ -15,6 +16,7 @@ import Toaster from './Toaster';
 export {
   AppContext,
   AppHead,
+  Button,
   Favicon,
   Footer,
   Header,
