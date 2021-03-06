@@ -12,6 +12,7 @@ import Loading from './Loading';
 import Logo from './Logo';
 import MenuButton from './MenuButton';
 import OpenGraph from './OpenGraph';
+import PriceList from './PriceList';
 import Toaster from './Toaster';
 
 export {
@@ -29,5 +30,6 @@ export {
   Logo,
   MenuButton,
   OpenGraph,
+  PriceList,
   Toaster,
 };

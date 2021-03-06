@@ -1,4 +1,4 @@
-import { ActionBox, Button, Header, Hero, Layout } from '../components';
+import { ActionBox, Button, Header, Hero, Layout, PriceList } from '../components';
 
 const Page = () => (
   <Layout withFooter>
@@ -38,6 +38,22 @@ const Page = () => (
           Learn more
         </Button>
       </ActionBox>
+    </div>
+    <div className="p-4">
+      <PriceList title="Visual design" price="$20/h">
+        <p className="text-gray-700 text-sm">
+          Curabitur lacinia, sapien et hendrerit tincidunt, ante vitae egestas varius, ex orci
+          sodales enim, vel egestas mi turpis vel mi.
+        </p>
+      </PriceList>
+    </div>
+    <div className="p-4">
+      <PriceList title="Programming" price="$25/h">
+        <p className="text-gray-700 text-sm">
+          Nulla hendrerit suscipit nisi, ut fringilla urna laoreet ac. Etiam sit amet ante
+          condimentum posuere.
+        </p>
+      </PriceList>
     </div>
   </Layout>
 );
