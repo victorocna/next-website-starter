@@ -2,7 +2,7 @@ import { ActionBox, Button, Header, Hero, Layout } from '../components';
 
 const Page = () => (
   <Layout withFooter>
-    <Hero minHeight={400}>
+    <Hero className="mb-4" minHeight={400}>
       <Header />
       <div className="text-center space-y-4 my-12">
         <h2 className="text-4xl">Hero image</h2>
