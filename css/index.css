@@ -3,4 +3,6 @@
 @tailwind utilities;
 
 @import 'animate.css';
+@import 'components.css';
 @import 'forms.css';
+@import 'toast.css';

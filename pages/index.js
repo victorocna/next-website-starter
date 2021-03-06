@@ -1,9 +1,9 @@
-import { Layout } from '../components';
+import { Hero, Layout } from '../components';
 
 const Page = () => {
   return (
     <Layout>
-      <h1>Hello world</h1>
+      <Hero />
     </Layout>
   );
 };
