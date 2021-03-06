@@ -2,8 +2,8 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <div>
-      <h2>Your logo</h2>
+    <div className="w-full">
+      <img src="/images/logo.png" alt="Your logo" />
     </div>
   );
 };
